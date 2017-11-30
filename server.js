@@ -5,7 +5,7 @@ var io = require('socket.io')(http);
 var MongoClient = require('mongodb').MongoClient;
 
 app.use(express.static('public'));
-var url = 'mongodb://buhlaze:nytr0gen@ds041486.mlab.com:41486/node_chat';
+var url = 'mongodb://ufwblvchutmkm5d:LkfA9vHtVy5aOgClmMaC@bhw432wahcpohri-mongodb.services.clever-cloud.com:27017/bhw432wahcpohri';
 MongoClient.connect(url, function(err, db){
 var messagesCollection = db.collection('messages'),
 connectedSockets =[];
